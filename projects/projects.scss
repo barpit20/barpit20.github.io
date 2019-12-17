@@ -1,0 +1,57 @@
+$primary-font: 'FaktPro';
+$secondary-font: 'Apercu';
+
+$text-dark: #262e38;
+$text: #778ca3;
+$primary-color: rgba(116, 185, 255,1.0);
+$link: #2e86de;
+
+@mixin transition($time){
+  -webkit-transition: all$time ease;
+  -moz-transition: all$time ease;
+  -o-transition: all$time ease;
+  transition: all$time ease;
+}
+
+section.projects
+{
+	padding-top: 0px;
+}
+
+nav
+{
+	margin-bottom: 40px;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	border-top: 1px solid rgba(0,0,0,.1);
+
+	.tab 
+	{
+		border-top: 1px solid transparent;
+		color: $text-dark;
+		padding: 20px 10px;
+		margin: 0px 5px;
+		cursor: pointer;
+		@include transition(.5s);
+	}
+
+	.tab:hover,.active
+	{
+		border-top: 1px solid $text-dark;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	nav
+	{
+		.tab 
+		{
+			padding: 10px 5px;
+			margin: 0px;
+		}
+	}
+
+}

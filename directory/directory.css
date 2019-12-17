@@ -1,0 +1,25 @@
+section h1.centered {
+  width: 60%;
+  margin: auto; }
+
+section .directory-wrapper {
+  width: 60%;
+  margin: auto; }
+  section .directory-wrapper .element {
+    padding: 10px 0px;
+    font-size: 1em;
+    color: #778ca3;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  section .directory-wrapper .element:hover {
+    padding-left: 20px;
+    color: #2e86de; }
+
+@media screen and (max-width: 480px) {
+  section h1.centered {
+    width: 100%; }
+  section .directory-wrapper {
+    width: 100%; } }
