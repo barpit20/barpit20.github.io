@@ -50,8 +50,8 @@ button.return-to-home:hover {
   border-bottom: 1px solid;
 }
 .content-project p > a:hover {
-  color: #FFC553;
-  border-color: #FFC553;
+  color: #2e86de;
+  border-color: #2e86de;
 }
 
 .logo-small {
@@ -134,7 +134,7 @@ button.return-to-home:hover {
   cursor: pointer;
 }
 .project-container p.link {
-  color: #FFC553;
+  color: #2e86de;
   padding-top: 12px;
 }
 .project-container .description-tile {
@@ -181,7 +181,7 @@ button.return-to-home:hover {
   max-width: 100%;
 }
 .project-container a {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .project-container .footnotes {
   font-size: 0.8em;
@@ -236,7 +236,7 @@ button.return-to-home:hover {
 }
 .project-wrapper .project-description p a {
   font-size: 0.9em;
-  color: #FFC553;
+  color: #2e86de;
 }
 .project-wrapper .project-description p a .fas {
   margin-left: 5px;
@@ -286,7 +286,7 @@ button.centerlight {
   background: none;
   font-size: 1.1em;
   font-weight: 500;
-  color: #FFC553;
+  color: #2e86de;
   cursor: pointer;
   outline: none;
   position: relative;
@@ -315,6 +315,20 @@ button.centerlight:hover .fas {
 }
 .project-page img.full {
   width: 100%;
+  margin: 28px auto;
+}
+.project-page img.poster {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 28px auto;
+}
+.project-page img.sticker {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin: 28px auto;
 }
 .project-page img.shadow {

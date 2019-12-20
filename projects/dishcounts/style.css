@@ -434,9 +434,6 @@ button.centerlight:hover .fas {
   header .logo .name {
     display: none;
   }
-  header .links {
-    display: none;
-  }
   header .hamburger {
     display: block;
   }
