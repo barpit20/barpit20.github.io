@@ -446,10 +446,6 @@ button.centerlight:hover .fas {
     width: 60%;
   }
 }
-@media only screen and (max-width: 400px) {
-  .project-container-left {
-    display: none;
-  }
 
   .project-container-right {
     width: 100%;
