@@ -333,6 +333,9 @@ footer {
     margin-top: 50px;
     text-align: center; } }
 
+        .badgeinput {
+  background: url("./projects/covers/badgeinput.png") !important; }
+
     .aica {
   background: url("./projects/covers/AICA.png") !important; }
 

@@ -1,0 +1,36 @@
+section h3.centered {
+  width: 60%;
+  margin: auto; }
+
+  section p.author-text {
+  font-size: 0.9em;
+  width: 60%;
+  margin: 8px auto;
+  text-align: left;
+  line-height: 2;
+  color: #2f5d8f }
+
+section p.about-text {
+  font-size: 0.9em;
+  font-weight: 400;
+  width: 60%;
+  margin: 8px auto;
+  text-align: left;
+  line-height: 2; }
+  section p.about-text a {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  section p.about-text a:hover {
+    color: #2e86de; }
+
+@media screen and (max-width: 480px) {
+  section h3.centered {
+    width: 100%; }
+  section p.about-text {
+    width: 100%; }
+  section p.author-text {
+    width: 100%; } }
