@@ -333,6 +333,9 @@ footer {
     margin-top: 50px;
     text-align: center; } }
 
+    .badgeoutput {
+  background: url("./projects/covers/boutput.png") !important; }
+
         .badgeinput {
   background: url("./projects/covers/badgeinput.png") !important; }
 
