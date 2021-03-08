@@ -1,3 +1,7 @@
+section h1.centered {
+  width: 60%;
+  margin: auto; }
+
 section h3.centered {
   width: 60%;
   margin: auto; }
@@ -9,6 +13,14 @@ section h3.centered {
   text-align: left;
   line-height: 2;
   color: #2f5d8f }
+
+  section p.conf-text {
+  font-size: 0.9em;
+  width: 60%;
+  margin: 8px auto;
+  text-align: left;
+  line-height: 2;
+  color: #778ca3 }
 
 section p.about-text {
   font-size: 0.9em;
