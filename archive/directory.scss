@@ -1,0 +1,61 @@
+$primary-font: 'FaktPro';
+$secondary-font: 'Apercu';
+
+$text-dark: #262e38;
+$text: #778ca3;
+$primary-color: rgba(116, 185, 255,1.0);
+$link: #2e86de;
+
+@mixin transition($time){
+  -webkit-transition: all$time ease;
+  -moz-transition: all$time ease;
+  -o-transition: all$time ease;
+  transition: all$time ease;
+}
+
+section
+{
+	h1.centered
+	{
+		width: 60%;
+		margin: auto;
+	}
+
+	.directory-wrapper
+	{
+		width: 60%;
+		margin: auto;
+
+		.element
+		{
+			padding: 10px 0px;
+			font-size: 1em;
+			color: $text;
+			cursor: pointer;
+			@include transition(.5s);
+		}
+
+		.element:hover
+		{
+			padding-left: 20px;
+			color: $link;
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	section
+	{
+		h1.centered
+		{
+			width: 100%;
+		}
+
+		.directory-wrapper
+		{
+			width: 100%;
+		}
+	}
+
+}
