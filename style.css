@@ -88,6 +88,18 @@ header {
   width: 85%;
   margin: auto; }
 
+  .headshot {
+    width: 14%;
+    min-width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1000;
+    margin-top: 1rem
+}
+
 section {
   width: 100%;
   padding: 50px 0px; }
@@ -129,12 +141,34 @@ section {
     transform: translate(0%, -50%); }
   section p {
     line-height: 1.75;
-    text-align: justify;
+    text-align: center;
     font-size: 1.2em;
     color: #778ca3;
     font-weight: 400; }
   section p.subtext {
-    width: 60%; }
+    width: 60%; 
+    
+  }
+
+  section p.bio {
+    width: 80%; 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  section a {
+    color: #2f5d8f !important;
+  }
+
+  section h1.bio {
+    width: 80%; 
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
   section .articles-wrapper {
     width: 100%;
     display: -webkit-box;
@@ -334,36 +368,53 @@ footer {
     text-align: center; } }
 
     .badgeoutput {
-  background: url("./projects/covers/boutput.png") !important; }
+  background: url("./research/covers/boutput.png") !important; }
       .ludo {
-  background: url("./projects/covers/ludo.png") !important; }
+  background: url("./research/covers/ludo.png") !important; }
 
         .badgeinput {
-  background: url("./projects/covers/badgeinput.png") !important; }
+  background: url("./research/covers/badgeinput.png") !important; }
 
     .aica {
-  background: url("./projects/covers/AICA.png") !important; }
+  background: url("./research/covers/AICA.png") !important; }
 
       .dishcounts {
-  background: url("./projects/covers/dishcounts.png") !important; }
+  background: url("./research/covers/dishcounts.png") !important; }
 
       .jump {
-  background: url("./projects/covers/Jump.png") !important; }
+  background: url("./research/covers/Jump.png") !important; }
 
       .vrproject {
-  background: url("./projects/covers/vrproject.png") !important; }
+  background: url("./research/covers/vrproject.png") !important; }
 
       .d360 {
-  background: url("./projects/covers/d360.png") !important; }
+  background: url("./research/covers/d360.png") !important; }
 
       .chainreaction {
-  background: url("./projects/covers/chainreaction.png") !important; }
+  background: url("./research/covers/chainreaction.png") !important; }
 
       .ethno {
-  background: url("./projects/covers/ethno.png") !important; }
+  background: url("./research/covers/ethno.png") !important; }
 
       .ied {
-  background: url("./projects/covers/ied.png") !important; }
+  background: url("./research/covers/ied.png") !important; }
         .iacv {
-  background: url("./projects/covers/iacv.png") !important; }
+  background: url("./research/covers/iacv.png") !important; }
+
+  .hapticar {
+    background: url("./research/covers/HapticAR.png") !important; }
+
+  .thri{
+    background: url("./research/covers/THRI.png") !important; }
+
+  .comicar{
+    background: url("./research/covers/ComicAR.png") !important; }
+
+  .touchless{
+    background: url("./research/covers/touchless.png") !important; }
+  
+  .dumask{
+    background: url("./research/covers/DUmask.png") !important; }
+
+  
 
