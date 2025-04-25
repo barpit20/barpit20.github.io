@@ -416,5 +416,11 @@ footer {
   .dumask{
     background: url("./research/covers/DUmask.png") !important; }
 
+  .text{
+      background: url("./research/covers/text.jpg") !important; }
+
+  .chem{
+        background: url("./research/covers/chem.png") !important; }
+
   
 
